@@ -8,8 +8,18 @@ const rock_div = document.getElementById("r"); // la div contenant l'image "rock
 const paper_div = document.getElementById("p");  // la div contenant l'image "paper"
 const scissors_div = document.getElementById("s");  // la div contenant l'image "scissors"
 
+
+function getComputerChoice() {
+    const choices = ['r', 'p', 's']; // le tableau des choix possibles .
+    const randomNumber = Math.floor(Math.random() * 3); // le nombre aléatoire qui servira de choix de l'ordinateur : 0 = rock, 1 = paper, 2 = scissors.
+    return choices [randomNumber]; // return 'r', 'p', ou 's' au hasard selon le random number issue de 'randomNumber'
+}
+console.log(getComputerChoice());
+
+
 function game(userChoice) {
-    console.log(" choix user :  " + userChoice);
+    const computerChoice = getComputerChoice();
+
 };
 
 function main() {
