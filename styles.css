@@ -15,6 +15,7 @@ header {
     padding: 20px;
 }
 
+
 header h1 {
     color: #25272E;
     text-align: center;
@@ -37,8 +38,8 @@ header h1 {
 .badge {
     background: #E2584D;
     color: white;
-    font-size:14px;
-    padding: 2px 10px;
+    font-size:18px;
+    padding: 2px 5px;
     font-family: Asap, sans-serif;
 
 }
@@ -67,7 +68,7 @@ header h1 {
 }
 
 .choices {
-    margin-top: 50px 0;
+    margin-top: 50px;
     text-align: center;
 }
 
@@ -92,4 +93,35 @@ header h1 {
     font-weight: bold;
     font-size: 20px;
     margin-top: 20px;
+}
+
+.green-glow {
+    border: 5px solid #4dcc7D;
+    box-shadow: 0 0 10px #31b43a;
+}
+
+.red-glow {
+    border: 5px solid #fc121b;
+    box-shadow: 0 0 10px #d01115;
+}
+
+.grey-glow {
+    border: 5px solid #464647;
+    box-shadow: 0 0 10px #25292B;
+}
+
+.reset-score {
+    border: 4px solid white;
+    border-radius: 5%;
+    background: #E2584D;
+    color: white;
+    font-size: 20px;
+    width: 20%;
+    height: 20%;
+    padding: 20px 20px;
+    font-family: Asap, sans-serif;
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+
 }
