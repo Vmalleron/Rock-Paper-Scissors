@@ -7,7 +7,13 @@ const result_div = document.querySelector(".result > p"); // la phrase qui expli
 const rock_div = document.getElementById("r"); // la div contenant l'image "rock"
 const paper_div = document.getElementById("p");  // la div contenant l'image "paper"
 const scissors_div = document.getElementById("s");  // la div contenant l'image "scissors"
-const reset_score = document.getElementById("reset-score-button"); //  le bouton de reset du score
+
+
+// reset scores to play new game;
+function StartNewGame() {
+    userScore_span.innerHTML = userScore = 0;
+    computerScore_span.innerHTML = computerScore = 0;
+}
 
 
 function getComputerChoice() {
